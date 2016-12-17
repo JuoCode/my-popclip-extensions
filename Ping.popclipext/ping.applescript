@@ -3,16 +3,17 @@ set domain to do shell script "echo " & u & " | sed -e 's/.*:\\/\\/\\([^ !\\/]*\
 
 tell application "iTerm"
 	set win to current window
+	activate
 	if win is equal to missing value then
 		set win to (create window with default profile)
 		set sess to (current session of win)
 		tell sess
-      write text "ping " & domain
-    end tell
+			write text "ping " & domain
+		end tell
 	else
 		set sess to (current session of win)
 		tell sess
-      write text "ping " & domain
-    end tell
+			write text "ping " & domain
+		end tell
 	end if
 end tell
