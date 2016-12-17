@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Requirements</key>
+			<array>
+				<string>httpurl</string>
+			</array>
+			<key>Title</key>
+			<string>Ping</string>
+			<key>AppleScript File</key>
+			<string>ping.applescript</string>
+		</dict>
+	</array>
+	<key>Credits</key>
+	<array>
+		<dict>
+			<key>Link</key>
+			<string>http://hzlzh.io/</string>
+			<key>Name</key>
+			<string>hzlzh</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Ping domain</string>
+	<key>Extension Identifier</key>
+	<string>org.duotai.opens.popclip.ping</string>
+	<key>Extension Name</key>
+	<string>Ping</string>
+	<key>Version</key>
+	<integer>1</integer>
+	<key>Regular Expression</key>
+	<string></string>
+</dict>
+</plist>
